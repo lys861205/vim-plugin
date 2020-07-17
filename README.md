@@ -19,4 +19,4 @@ vundle 是vim插件管理器，需要先安装vundle插件，
 ## 安装
 1. .vimrc 中vim的配置文件，里面包含了插件类别，快捷键，主题，可视化等信息的配置
 2. 用vim打开任意一个文件
-3. 运行 :BundleInstall，运行该命令会判断.vimrc包含的插件在指定目录下是否有，如果没有通过git下载
+3. 运行 :BundleInstall （vundle插件的命令），该命令会判断.vimrc包含的插件在指定目录下是否有，如果没有通过git下载
