@@ -1,1 +1,0 @@
-/search/log/lys/blade/vim/indent/blade.vim

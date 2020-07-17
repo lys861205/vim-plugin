@@ -1,1 +1,0 @@
-/search/log/lys/blade/vim/ftdetect/blade.vim
