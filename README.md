@@ -18,5 +18,6 @@ vundle 是vim插件管理器，需要先安装vundle插件，
 * Valloric/YouCompleteMe 代码的跳转
 ## 安装
 1. .vimrc 中vim的配置文件，里面包含了插件类别，快捷键，主题，可视化等信息的配置
-2. 用vim打开任意一个文件
-3. 运行 :BundleInstall （vundle插件的命令），该命令会判断.vimrc包含的插件在指定目录下是否有，如果没有通过git下载
+2. 配置插件语法 Bundle "插件名称"  （如果指定插件名称，vundle管理器默认下载去服务器下载，如果该插件在管理服务中不存在，插件名称中必须带域名）
+3. 用vim打开任意一个文件
+4. 运行 :BundleInstall （vundle插件的命令），该命令会判断.vimrc包含的插件在指定目录下是否有，如果没有通过git下载
