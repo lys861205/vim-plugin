@@ -7,7 +7,7 @@ vundle 是vim插件管理器，需要先安装vundle插件，
 ## 插件详情
 * The-NERD-tree 文件导航窗口
 * taglist.vim 当前文件包含的函数，变量，宏等信息列表
-* fatih/vim-go dgryski/vim-godef Blackrush/vim-gocode majutsushi/tagbar golang 格式化插件
+* fatih/vim-go dgryski/vim-godef Blackrush/vim-gocode majutsushi/tagbar [golang](https://golang.org/) 格式化插件
 * ctrlp.vim 文件查找搜索
 * ctrlp-funky 当前文件中查找搜索函数
 * scrooloose/nerdcommenter 代码注释 （相当于// /**/）
