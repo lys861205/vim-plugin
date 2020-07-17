@@ -12,6 +12,11 @@ vundle 是vim插件管理器，需要先安装vundle插件，
 * ctrlp-funky 当前文件中查找搜索函数
 * scrooloose/nerdcommenter 代码注释 （相当于// /**/）
 * vim-scripts/DoxygenToolkit.vim 代码注释 （文件开头注释，函数注释）
+* https://github.com/nathanaelkane/vim-indent-guides 代码折叠插件
+* https://github.com/vim-scripts/a.vim cpp 和 h文件的切换
+* scrooloose/syntastic 语法检查
+* Valloric/YouCompleteMe 代码的跳转
 ## 安装
-1. 用vim打开任意一个文件
-2. 运行 :BundleInstall，运行该命令会判断.vimrc包含的插件在指定目录下是否有，如果没有通过git下载
+1. .vimrc 中vim的配置文件，里面包含了插件类别，快捷键，主题，可视化等信息的配置
+2. 用vim打开任意一个文件
+3. 运行 :BundleInstall，运行该命令会判断.vimrc包含的插件在指定目录下是否有，如果没有通过git下载
