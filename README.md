@@ -10,8 +10,8 @@ vundle 是vim插件管理器，需要先安装vundle插件，
 * fatih/vim-go dgryski/vim-godef Blackrush/vim-gocode majutsushi/tagbar golang 格式化插件
 * ctrlp.vim 文件查找搜索
 * ctrlp-funky 当前文件中查找搜索函数
-* scrooloose/nerdcommenter 代码注释 相等// /**/
-* vim-scripts/DoxygenToolkit.vim 代码注释 文件开头注释，函数注释
+* scrooloose/nerdcommenter 代码注释 （相当于// /**/）
+* vim-scripts/DoxygenToolkit.vim 代码注释 （文件开头注释，函数注释）
 ## 安装
-1. 打开vim
-2. 运行 :BundleInstall
+1. 用vim打开任意一个文件
+2. 运行 :BundleInstall，运行该命令会判断.vimrc包含的插件在指定目录下是否有，如果没有通过git下载
