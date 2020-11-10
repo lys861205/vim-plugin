@@ -1,5 +1,7 @@
 set nocompatible " be iMproved, required
 "set fencs=utf-8,gbk
+"可以让vim自动识别文件编码，其实就是依照 fileencodings提供的编码列表尝试
+set encoding=utf-8 fileencodings=ucs-bom,utf-8,cp936
 filetype on
 filetype plugin on
 set rtp+=~/.vim/bundle/vundle/
