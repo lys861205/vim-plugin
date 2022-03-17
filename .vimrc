@@ -10,6 +10,53 @@ call vundle#rc()
 
 Bundle "VundleVim/Vundle.vim"
 
+Bundle "Yggdroot/LeaderF"
+let g:Lf_PreviewResult = {
+            \ 'File': 0,
+            \ 'Buffer': 0,
+            \ 'Mru': 0,
+            \ 'Tag': 1,
+            \ 'BufTag': 1,
+            \ 'Function': 1,
+            \ 'Line': 0,
+            \ 'Colorscheme': 0,
+            \ 'Rg': 1,
+            \ 'Gtags': 1
+            \}
+let g:Lf_WindowPosition = 'popup'
+let g:Lf_PreviewInPopup = 1                       " 在 popup 窗口中预览结果
+let g:Lf_PreviewCode = 1                          " 预览代码
+let g:Lf_RootMarkers = ['.root', 'compile_command.json', '.git'] "你的根目录标志
+let g:Lf_WorkingDirectoryMode = 'A'              " 设置 LeaderF 工作目录为项目根目录，如果不在项目中，则为当前目录。
+let g:Lf_ShortcutF = "<Leader>f"
+let g:Lf_ShortcutB = "<Leader>bl"
+nnoremap <silent><Leader>p :LeaderfFunctionAll<CR> " 搜索函数
+nnoremap <silent><Leader>l :LeaderfBufTagAll<CR>   " 搜索缓冲区中的 tag
+nnoremap <silent><Leader>d :LeaderfTag<CR>         " 搜索项目中的 tag
+nnoremap <silent><leader>h :LeaderfHelp<CR>        " 搜索 vim help
+nnoremap <Leader>rg :Leaderf rg<Space>             " 调用 ripgrep 查找字符串
+
+"graphviz 插件
+Bundle 'liuchengxu/graphviz.vim'
+" If does not exist, graphviz.vim will automatically choose the right way depending on the platform.
+let g:graphviz_viewer = 'open'
+" Default output format. Default is 'pdf'.
+let g:graphviz_output_format = 'pdf'
+" Options passed on to dot. Default is ''.
+let g:graphviz_shell_option = ''
+
+"代码高亮显示
+Bundle "octol/vim-cpp-enhanced-highlight"
+let g:cpp_class_scope_highlight = 1
+let g:cpp_member_variable_highlight = 1
+let g:cpp_class_decl_highlight = 1
+"let g:cpp_posix_standard = 1
+"let g:cpp_experimental_simple_template_highlight = 1
+let g:cpp_experimental_template_highlight = 1
+let g:cpp_concepts_highlight = 1
+"let g:cpp_no_function_highlight = 1
+
+
 Bundle "The-NERD-tree"
 map <silent>nd :NERDTree<CR>
 map <silent>tn :tabn<CR>
