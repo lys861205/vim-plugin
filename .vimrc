@@ -317,6 +317,19 @@ nnoremap <silent>b :bp<CR>
 nnoremap <silent>f :bn<CR>
 
 
+" 高亮显示当前行/列
+"set cursorline
+"set cursorcolumn
+"
+" 光标显示
+"highlight CursorLine guibg=lightblue ctermbg=yellow
+"highlight CursorLine cterm=bold ctermbg=lightgray
+set cursorline 
+"highlight CursorLine cterm=bold ctermbg=DarkMagenta
+highlight CursorLine cterm=bold ctermbg=125
+"highlight CursorLine cterm=bold ctermbg=0
+
+
 " 字体加粗
 
 
